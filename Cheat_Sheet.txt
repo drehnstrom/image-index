@@ -1,0 +1,1 @@
+gcloud functions deploy imageindex --runtime nodejs6 --trigger-resource doug-rehnstrom-pets --trigger-event google.storage.object.finalize
